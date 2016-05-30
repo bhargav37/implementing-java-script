@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Contact us - Choma Restaurant</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/validation.js"></script>
+
+</head>
+<body>
+<div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo"><h1><a href="index.html">Choma  Restaurant</a></h1>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lunch.html">Lunch</a></li>
+          <li><a href="dinner.html">Dinner</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+          <li  class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content_resize">
+      <img src="images/img1.jpg" width="927" height="240" alt="image" class="ctop" />
+      <div class="mainbar">
+        <div class="article">
+          <h2>Contact</h2>
+          <p>You can find more about Choma Restaurant's services by fiiling the form below, or calling/ sending a text message to the numbers below.</p>
+        </div>
+        <div class="article">
+          <h2>Telephone Numbers/ Fax</h2>
+          <p>Outside Catering (+254-0012345, +254- 0012346, +254- 0012347).</p>
+          <p>Other services (+254-0022345, +254- 0022346, +254- 0022347),</p>
+          <p> Fax: (+254-0022345, +254- 0022346, +254- 0022347)</p>
+        </div>
+        <div class="article">
+          <h2>Send us mail</h2>
+          <form action="#" method="post" id="sendemail" name="sendMail" onsubmit="return validateFields();">
+            <ol><li>
+              <label for="name">Name (required)</label>
+              <input id="name" name="name" class="text" onkeyup="validateName();" /><br>
+              <span class="error" id="name_error"></span>
+            </li><li>
+              <label for="email">Email Address (required)</label>
+              <input id="email" name="email" class="text" onkeyup="validateMail();" /><br>
+              <span class="error" id="mail_error"></span>
+            </li><li>
+              <label for="website">Website</label>
+              <input id="website" name="website" class="text" onkeyup="validateURL();" /> <br>
+              <span class="error" id="url_error"></span>
+            </li><li>
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="8" cols="50" onkeyup="validateMessage();"></textarea> <br>
+              <span class="error" id="message_error"></span>
+            </li><li>
+              <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+              <div class="clr"></div>
+            </li></ol>
+          </form>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <ul class="sb_menu">
+             <li><a href="index.html">Home</a></li>
+            <li><a href="drinks.html">Choma Drinks</a></li>
+            <li><a href="lunch.html">Choma Lunch</a></li>
+            <li><a href="dinner.html">Choma Dinner</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+          </ul>
+        </div>
+        <div class="col c3">
+        <h2>Image Galley</h2>
+        <img src="images/pix1.jpg" width="100" height="100" alt="pix" />
+         <img src="images/pix2.jpg" width="100" height="100" alt="pix" />
+        <img src="images/pix3.jpg" width="100" height="100" alt="pix" />
+        <img src="images/pix4.jpg" width="100" height="100" alt="pix" />
+        <img src="images/pix5.jpg" width="100" height="100" alt="pix" />
+        <img src="images/pix6.jpg" width="100" height="100" alt="pix" />
+      </div>   
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+  <div class="fbg">
+    <div class="fbg_resize">
+          
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright 2016,   Choma Restaurant Group. All Rights reserved.</a></p>
+      <ul class="fmenu">
+        <li><a href="index.html">Home</a></li>
+          <li><a href="lunch.html">Lunch</a></li>
+          <li><a href="dinner.html">Dinner</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+          <li  class="active"><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
